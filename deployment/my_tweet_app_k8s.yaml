@@ -35,6 +35,6 @@ spec:
     spec:
       containers:
       - name: my-tweet-app
-        image: toontjem/my-tweet-app
+        image: toontjem/my-tweet-app:latest
         ports:
         - containerPort: 5000
