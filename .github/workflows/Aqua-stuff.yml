@@ -1,12 +1,13 @@
-name: Aquad
+name: Aqua
 on:
   push:
-    branches:
-      - master
+    branches: [ main ]
   pull_request:
+    branches: [ main ]
+
 jobs:
   build:
-    name: Built
+    name: Build
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout code
