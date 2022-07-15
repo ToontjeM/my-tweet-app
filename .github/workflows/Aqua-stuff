@@ -6,7 +6,7 @@ on:
   pull_request:
 jobs:
   build:
-    name: Build
+    name: Built
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout code
